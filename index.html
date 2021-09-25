@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FRUIT SLASH</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel="icon" href="/images/cherry.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        * {
+            cursor: url(https://cur.cursors-4u.net/sports/spo-1/spo26.cur), auto !important;
+        }
+    </style><a href="https://www.cursors-4u.com/cursor/2005/08/12/spo26.html" target="_blank" title="Sword"><img
+            src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Sword"
+            style="position:absolute; top: 0px; right: 0px;" /></a>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div id="container">
+        <div id="title">
+            FRUIT SLASH
+        </div>
+        <div id="score">Score: <span id="scorevalue">0</span></div>
+        <div id="fruitsContainer">
+            <div id="trialsLeft"></div>
+            <img id="fruit1" class="fruit">
+            <div class="animate__animated animate__flash" id="instruction">Press start to slash through fruits before they fall to the ground<br> You
+                have 3 lives to get the highest score <br>Press reset to clear game</div>
+        </div>
+        <div id="startreset">START</div>
+        <div class="animate__animated animate__flash" id="gameover"></div>
+    </div>
+    <audio id="squish">
+        <source src="audio/squish.mp3">
+        </source>
+        <source src="audio/squish.ogg">
+        </source></audio>
+    <audio id="wrong">
+        <source src="audio/wrong.mp3">
+        </source>
+        <source src="audio/wrong.ogg">
+        </source></audio>
+    <audio id="gameend">
+        <source src="audio/gameover.mp3">
+        </source>
+        <source src="audio/gameover.ogg">
+        </source></audio>
+    <audio id="gamestart">
+        <source src="audio/gamestart.mp3">
+        </source>
+        <source src="audio/gamestart.ogg">
+        </source></audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="jquery.js"></script>
+</body>
+
+</html>
